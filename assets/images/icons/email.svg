@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33.843" height="25.347" viewBox="0 0 33.843 25.347">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="33.843" height="25.347" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="email" clip-path="url(#clip-path)">
+    <g id="email-2" data-name="email" transform="translate(0 -64.266)">
+      <path id="Path_2172" data-name="Path 2172" d="M19.75,180.807a5.09,5.09,0,0,1-5.657,0L.225,171.562q-.115-.077-.225-.16v15.15a3.114,3.114,0,0,0,3.115,3.115H30.727a3.114,3.114,0,0,0,3.115-3.115V171.4q-.111.083-.226.16Z" transform="translate(0 -100.054)" fill="#fd6301"/>
+      <path id="Path_2173" data-name="Path 2173" d="M1.325,69.857,15.193,79.1a3.107,3.107,0,0,0,3.457,0l13.868-9.246a2.969,2.969,0,0,0,1.325-2.477,3.118,3.118,0,0,0-3.114-3.114H3.114A3.118,3.118,0,0,0,0,67.382a2.969,2.969,0,0,0,1.325,2.475Z" transform="translate(0 0)" fill="#fd6301"/>
+    </g>
+  </g>
+</svg>

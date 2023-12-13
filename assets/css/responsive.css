@@ -1,0 +1,224 @@
+/*---- Responsive CSS Start ----*/
+@media (max-width: 1440px) {
+}
+@media (max-width: 1366px) {
+  
+    .hero_minister::before {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    
+}
+@media (min-width: 992px) {
+ .openMenu {display: none;}
+    .closeMe {
+     display: none;
+    }
+    .minister_logo {
+        display: none;
+    }
+    .header .minister_nav .myNav ul .minister_hide {
+        display: block;
+    }
+
+}
+@media (max-width: 991px) {
+    .hero_minister::after {
+        width: 49%;
+        } 
+  .minister_hide {
+display: none;
+  }
+    header .minister_nav .myNav .closeMe {
+        display: flex;
+        z-index: 9999;
+        width: fit-content;
+        top: 10px;
+        right: 20px;
+        position: absolute;
+      }
+      header .minister_nav .myNav ul {
+        display: block;
+      }
+      header .minister_nav .myNav ul li {
+        /* display: flex; */
+        padding: 10px 0;
+        color: black;
+        justify-content: center;
+        width: 100%;
+    }
+      header .minister_nav .agency_btn, .agency_btn:focus {display: none;}
+      header .travel_agnecy .travel_menu ul {
+        display: none;
+    }
+    header .minister_nav .myNav.active {
+      visibility: visible;
+      left: 0;
+      opacity: 1;
+    }
+    header .minister_nav .myNav ul li a {color: black;}
+    header .minister_nav .myNav {
+      transition: 0.3s;
+      display: unset;
+      top: 0;
+      padding: 40px 0 0 0;
+      visibility: hidden;
+      left: -100%;
+      position: fixed;
+      opacity: 0;
+      width: 100%;
+      background: white;
+      height: 100%;
+      z-index: 999;
+    }
+}
+@media (max-width: 768px) {}
+@media (max-width: 767px) {
+    .hero_minister::after {
+    width: 100%;
+    border-radius: 0 74px 0 0;
+    height: 355px;
+}
+}
+@media (max-width: 576px) {
+    .hero_minister::after {
+    height: 191px;
+}
+    body{
+        line-height: 1.6;;
+        font-size: 14px;
+    }
+    .footer_wrap ul li a figure img {
+    width: 70%;
+}
+.footer_wrap {
+    padding: 40px 0px
+}
+.footer_wrap ul li {
+    margin-bottom: 8px;
+}
+.next li a img {
+    width: 18px;
+    height: 16px;
+}
+.next li a {
+    width: 38px;
+    height: 36px;
+}
+.footer_wrap ul li h4 {
+    font-weight: 500;
+    font-size: 26px;
+    margin: 0px 0px 14px;
+}
+.footer_wrap ul li a span {
+    padding: 6px 10px;
+}
+.hero_minister {
+    padding: 30px 0px;
+}
+.footer_wrap ul li a span img {
+    width: 20px;
+    height: 22px;
+}
+.footer_wrap ul li a {
+    margin: 0 0 10px;
+}
+    .news_letter {
+}
+    .minister_wrap {
+    padding: 47px 0;
+    overflow: hidden;
+}
+    .update_news figure img{
+    height: 221px;
+    object-fit: cover;
+}
+    .update_news .latest_text h6 {
+    font-size: 20px;
+}
+   .update_news {
+    padding: 0 0 25px;
+    margin: 20px 0 0;
+}
+.main_heading {
+    width: 100%;
+    margin-bottom: 25px;
+}
+    .minister_key_view {
+    display: block;
+}
+ .minister_wrap .describe_minister {
+    width: 100%;
+}
+.minister_wrap .describe_minister .minister_head {
+    width: 100%;
+    text-align: left;
+}
+.minister_head h2 {
+    font-size: 32px;
+    line-height: 42px;
+}
+    .minister_head h2 span {
+    margin: 0;
+    }
+    .hero_minister .minister_herooimg figure img {
+        width: 75%;
+        height: 285px;
+        object-fit: cover;
+    }
+    .minister_head h4 {
+    font-size: 21px;
+    line-height: 31px;
+}
+.news_letter .main_heading {
+    width: 100%;
+}
+.news_letter .ministr_subs {
+    gap: 5px;
+    padding: 0px; 
+  
+}
+}
+@media only screen and (min-width: 1200px) {
+    .photoGallery .itembox {
+    }
+    .photoGallery {
+      gap: 5px 20px;
+    }
+  }
+  @media only screen and (min-width: 1400px) {
+    .photoGallery .itembox {
+    }
+    .photoGallery {
+      grid-template-columns: auto auto auto auto auto;
+      gap: 5px 20px;
+    }
+  }
+  @media only screen and (min-width: 1600px) {
+    .photoGallery .itembox {
+    }
+    .photoGallery {
+      gap: 5px 20px;
+    }
+  }
+  @media only screen and (min-width: 1800px) {
+    .photoGallery .itembox {
+    }
+    .photoGallery {
+      grid-template-columns: auto auto auto auto auto auto;
+      gap: 5px 20px;
+    }
+  }
+  @media only screen and (max-width: 1199px) {
+    .mainSlider .mySlide .sliderText {
+      width: 42%;
+    }
+    .appSlide .cover {
+      top: -47px;
+      left: 56%;
+    }
+    .appSlide .cover img {
+      width: 60% !important;
+    }
+  }
